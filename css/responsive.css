@@ -1,0 +1,175 @@
+@media(max-width:991px){
+    .container {
+        width: 720px;
+        margin: auto;
+    }  
+    .top-credits{
+        display: block;
+    }
+   
+    h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .topheader ul li{
+        display: none;
+    }
+    .topheader ul li:nth-child(5){
+        display: block;
+    }
+    .topheader ul li:nth-child(6){
+        display: block;
+        margin-right: 15px;
+    }
+    .series-rating .left{
+        width: 100%;
+    }
+    .series-rating .right{
+        width: 100%;
+    }
+    .series-rating p {
+        font-weight: 500;
+    }
+    .main-series .left-img {
+        width: 30%;
+        height: 300px;
+    }
+    .main-series .left-img img{
+        height: 100%;
+    }
+    .main-series .youtube {
+        height: 300px;
+        width:70%;
+    }
+    .main-series .vid-img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .main-series .vid-img .box {
+        padding: 10px;
+        height: auto;
+        margin: 0;
+        width: 50%;
+        border-radius: 2px;
+    }
+    .main-series .vid-img .box:first-child {
+        margin-bottom: 0px;
+        margin-right: 5px;
+    }
+    .main-series .vid-img .box div{
+        display: flex;
+    }
+    .main-series .vid-img h5 {
+        margin-left: 10px;
+    }  
+    .main-series .vid-img .box div img{
+        width: 28px;
+    } 
+    .showtime .left {
+        width: 90%;
+    }
+    .showtime .names-beh{
+        display: none;
+    }
+    .series-rating .right {
+        position: absolute;
+        width: 55%;
+        top: 62%;
+    }
+    .showtime .right {
+        margin-top: 95px;
+        width: 65%;
+    }
+    .showtime .container .flex .right a:nth-child(3) {
+        padding: 12px 23px;
+        font-size: 19px;
+    }
+}
+@media(max-width:575px){
+  .container{
+    width: 355px;
+  }
+  .series-rating,.topheader,.showtime .container{
+    padding: 0px 15px;
+  }
+  h1 {
+    font-size: 25px;
+    width: 73%;
+  }
+  .series-rating p {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .main-series .left-img {
+    width: 20%;
+    height: 100px;
+    position: absolute;
+}
+.main-series .youtube {
+    height: 195px;
+    width: 100%;
+}
+.main-series .left-img {
+    left: 13%;
+    width: 23%;
+    height: 115px;
+    position: absolute;
+    top: 42%;
+}
+.main-series .vid-img{
+    margin-top: 80px;
+}
+
+.main-series .vid-img .box div img {
+    width: 15px;
+    height: 15px;
+    margin-top: 7px;
+}
+.main-series .vid-img .box h5 strong {
+    font-size: 13px;
+    font-weight: 600;
+}
+.series-rating .right .rating-box h5 {
+    display: none;
+}
+.series-rating .right {
+    width: 70%;
+    top: 87%;
+}
+.series-rating .right .rating-box img {
+    width: 14px;
+}
+.series-rating .right .rating-box ul li {
+    font-size: 14px;
+}
+.series-rating .right .rating-box strong {
+    font-size: 17px;
+}
+.showtime {
+  margin-top: -55px;
+}
+.showtime .left {
+    width: 100%;
+}
+.showtime .left p {
+    font-size: 16px;
+}
+.showtime .right {
+    width: 100%;
+    position: relative;
+}
+.showtime .right a:nth-child(2) {
+    width: 79%;
+}
+.showtime .right .top-credits{
+    position: absolute;
+    color: #fff;
+    top: -20%;
+}
+
+
+
+
+}
